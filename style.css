@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #f9fafc;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgb(207, 202, 202) ;
+}
+.nav-brand {
+    width: 150px;
+}
+.nav-logo {
+    width:100%;
+}
+.nav-button {
+   background-image: linear-gradient(to right,#ff512f 0%,#dd2476 51%,#ff512f 100%);
+   color: #fff;
+   border: 1px solid #ff512f;
+   padding: 6px;
+   border-radius: 4px;
+   }
+.nav-button:hover {
+    border: 2px solid #ff512f;
+    cursor: pointer;
+}   
+@media (min-width:768px) {
+    .nav-brand {
+        width: 200px;
+    }
+    .nav-button {
+        padding: 12px 20px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
+@media (min-width : 1020px) {
+    .nav-brand {
+        width: 150px;
+    }
+    .navbar {
+        justify-content: space-between;
+        padding: 0px 30px;
+    }
+    .nav-button {
+        padding: 10px 15px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+}   
