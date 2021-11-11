@@ -1,0 +1,16 @@
+github:
+New:
+git init
+git link
+
+git add .
+git commit -m " "
+git push origin master
+
+Navbar:
+applied flex and used space around.
+used width for increasing logo size.
+
+hero section:
+PC:
+made the container max width to 900px so both elements adjusted bt it was not in center so applied equal margin to both side using margin auto globally.
