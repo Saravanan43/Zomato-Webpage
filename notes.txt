@@ -14,3 +14,27 @@ used width for increasing logo size.
 hero section:
 PC:
 made the container max width to 900px so both elements adjusted bt it was not in center so applied equal margin to both side using margin auto globally.
+
+ .menu-gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right,#ff512f 0%,#dd2476 51%,#ff512f 100%);
+        z-index: -3;
+        transform: skewY(-3deg);
+    }
+    .menu-main-section {
+        display: flex;
+        gap: 15px;
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+    #pizza {
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
+    .menu-card {
+        position: relative;
+    }
